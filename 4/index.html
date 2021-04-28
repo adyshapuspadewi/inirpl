@@ -5,4 +5,20 @@ Hasil Menyadur : <br>
   <li> Aktor merupakan pengguna sistem atau biasa disebut user. Aktor pada usecase diagram bisa 1 atau lebih. Ada Aktor aktif biasa digambarkan disebelah kiri, aktor aktif yang menggunakan sistem/langsung berhubungan dengan sistem) dan 
     Ada Aktor pasif biasa digambarkan di sebelah kanan (jika aktor aktif membutuhkan inputan secara langsung/manual).</li>
   <li> Usecase tidak menjelaskan secara detail, namun hanya gambaran singkat mengenai hubungan antara aktor, usecase, dan sistem. </li>
-  <li> Pada Usecase terdapat include dan exclude
+  <li> Pada Usecase terdapat include dan exclude.</li>
+    <ol type="square">
+      <li> Include-disertakan, dimana usecase satu berhubungan dengan usecase lainnya (tidak dapat berdiri sendiri/mempengaruhi usecase lain sehingga harus dipenuhi dulu baru berjalan) <br>
+        Gambar panah kearah yang usecase yang diperlukan. Misal : pada usecase login, untuk mengelola pinjaman/anggota maka user harus login dahulu.</li>
+      <li>Exclude -berkelanjutkan, dapat berdiri sendiri tanpa usecase lainnya, merupakan pengembangan dari usecase inti sehingga gambar panah ke arah usecase inti.<br>
+     Misalnya: usecase validasi user, yang pengembangannya bisa dengan username dan password, sidik jari, retina (opsional dapat dipilih).</li></ol>
+  <li> Generalisasi (rincian/pecahan usecase) dari sebuah usecase ringkasan. Misalnya: usecase mengelola (ringkasan) cukup mewakili kegiatan tambah, ubah, hapus, dsb. (rincian)</li>
+  <li> Selain menggambar usecase, kita juga akan membuat deskripsi usecase (no, nama usecase, deskripsi usecase), setiap usecase diagram dilengkapi skenario usecase.</li>
+  <ol type="square">
+    <li> Skenario normal, dimana berjalan normal tanpa ada kesalahan (berjalan sebagaimana mestinya)</li>
+    <li> Skenario Alternatif, dimana berjalan apabila pada skenarion normal terjadi kesalahan<li></ol>
+  <li> INGAT</li>
+  <ol type="bullet">
+    <li> Setiap usecase akan menjadi satu rancangan layar dan memiliki satu sequence diagram</li>
+    <li> Generalisasi umumnya tidak dilakukan, mengingat usecase bukan menggambarkan secara mendetail </li>
+    <li> Deskripsi usecase dan skenario usecase merupakan satu paket yang dibuat sebagai tabel deskripsi usecase</li></ol>
+  
