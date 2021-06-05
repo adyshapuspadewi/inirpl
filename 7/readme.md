@@ -1,0 +1,3 @@
+NIM : 1811500029 
+NAMA : Adysha Puspa Dewi
+KELOMPOK : TI6A
